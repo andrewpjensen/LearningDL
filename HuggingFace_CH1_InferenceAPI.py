@@ -2,7 +2,7 @@ from pprint import pprint
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/flair/pos-english"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer INSERT TOKEN"}
 
 def query(payload):
     response = requests.post(API_URL, headers=headers, json=payload)
