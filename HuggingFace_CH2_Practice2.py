@@ -25,3 +25,11 @@ model_inputs = torch.clone(encoded_sequences)
 #Prints the tensor, under the new variable
 print(model_inputs)
 
+#Use the model and inputs to make an output
+output = model(model_inputs)
+
+#Prints the output of the model
+print(output)
+
+
+
